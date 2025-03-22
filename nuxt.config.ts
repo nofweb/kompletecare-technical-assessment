@@ -9,7 +9,7 @@ export default defineNuxtConfig({
 
   runtimeConfig: {
     public: {
-      apiUrl: process.env.API_URL || 'https://testdrive.kompletecare.com'
+      apiUrl: process.env.API_URL 
     }
   }
 
